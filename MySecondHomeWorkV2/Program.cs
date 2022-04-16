@@ -200,7 +200,7 @@ Console.WriteLine("=============================================================
 Console.WriteLine();
 
 // Interpolācija
-Console.WriteLine("Labdien, lūdzu ievadi savu dzimšanas mēnesi (vārdiem)");
+Console.WriteLine("Lūdzu ievadi savu dzimšanas mēnesi (vārdiem)");
 string birthMonth = Console.ReadLine();
 Console.WriteLine("Lūdzu, ievadi savu dzimšanas datumu");
 string birthDate = Console.ReadLine();
