@@ -195,4 +195,14 @@ double triangleArea = triangleEdge1 * triangleEdge2 / 2;
 Double triangleAreaRounded = Math.Round(triangleArea, 2);
 Console.WriteLine(triangleAreaRounded);
 
+Console.WriteLine();
+Console.WriteLine("============================================================================");
+Console.WriteLine();
 
+// Interpolācija
+Console.WriteLine("Labdien, lūdzu ievadi savu dzimšanas mēnesi (vārdiem)");
+string birthMonth = Console.ReadLine();
+Console.WriteLine("Lūdzu, ievadi savu dzimšanas datumu");
+string birthDate = Console.ReadLine();
+
+Console.WriteLine($"Tavs dzimšanas datums ir {userBirthYear} gada, {birthDate}. {birthMonth}");
