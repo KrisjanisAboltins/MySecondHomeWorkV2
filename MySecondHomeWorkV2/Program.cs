@@ -211,8 +211,8 @@ Console.WriteLine();
 Console.WriteLine("============================================================================");
 Console.WriteLine();
 
-string thanks = "Paldies,";
-string thanks2 = "un Foršu dienu!";
+string thanks = userName + ", liels paldies,";
+string thanks2 = "un foršu dienu :)!";
 
 Console.WriteLine(thanks);
 Console.WriteLine(thanks2);
