@@ -39,10 +39,10 @@ int userAgeplus1 = userAge + 1;
 Console.WriteLine("Nākamgad tev paliks " + userAgeplus1);
 
 // vai lietotājs ir pilgadīgs
-string Agged = "Tu esi pilngadīgs/a";
+string agged = "Tu esi pilngadīgs/a";
 bool isLargerEqual = userAge >= 18;
 
-Console.WriteLine(Agged);
+Console.WriteLine(agged);
 Console.WriteLine(isLargerEqual);
 
 Console.WriteLine();
@@ -54,50 +54,50 @@ string userGreeting3 = userName + ", vēlos Tev pajautāt dažus skaitļus";
 Console.WriteLine(userGreeting3);
 Console.WriteLine("Lūdzu, ievadi pirmo skaitli");
 // sagaidīt lietoja 1ma skaitļa ievadi
-string FirstNumberText = Console.ReadLine();
-int FirstNumber = int.Parse(FirstNumberText);
+string firstNumberText = Console.ReadLine();
+int firstNumber = int.Parse(firstNumberText);
 
 // pajautāt lietotājam 2ro skaitli
 Console.WriteLine("Lūdzu, ievadi otro skaitli");
 // sagaidīt lietoja 2ra skaitļa ievadi
-string SecondNumberText = Console.ReadLine();
-int SecondNumber = int.Parse(SecondNumberText);
+string secondNumberText = Console.ReadLine();
+int secondNumber = int.Parse(secondNumberText);
 
 // pajautāt lietotājam 3šo skaitli
 Console.WriteLine("Lūdzu, ievadi trešo skaitli");
 // sagaidīt lietoja 3šā skaitļa ievadi
-string ThirdNumberText = Console.ReadLine();
-int ThirdNumber = int.Parse(ThirdNumberText);
+string thirdNumberText = Console.ReadLine();
+int thirdNumber = int.Parse(thirdNumberText);
 
 // pajautāt lietotājam 4to skaitli
 Console.WriteLine("Lūdzu, ievadi ceturto skaitli");
 // sagaidīt lietoja 4tā skaitļa ievadi
-string FourNumberText = Console.ReadLine();
-int FourthNumber = int.Parse(FourNumberText);
+string fourNumberText = Console.ReadLine();
+int fourthNumber = int.Parse(fourNumberText);
 
 // pirmais max cipars
-int FirstMaxNumber = Math.Max(FirstNumber, SecondNumber);
+int firstMaxNumber = Math.Max(firstNumber, secondNumber);
 // otrais max cipars
-int SecondMaxNumber = Math.Max(ThirdNumber, FourthNumber);
+int secondMaxNumber = Math.Max(thirdNumber, fourthNumber);
 // trešais max cipars
-int MaxNumber = Math.Max(FirstMaxNumber, SecondMaxNumber);
+int maxNumber = Math.Max(firstMaxNumber, secondMaxNumber);
 
 Console.WriteLine("-------------------------------------------------------------------");
 
 // max ciparu parādīt
-string MaxNumberText = userName + ", vai Tu zini, ka no Taviem nosauktajiem skaitļiem maksimālais skaitlis ir";
-Console.WriteLine(MaxNumberText);
-Console.WriteLine(MaxNumber);
+string maxNumberText = userName + ", vai Tu zini, ka no Taviem nosauktajiem skaitļiem maksimālais skaitlis ir";
+Console.WriteLine(maxNumberText);
+Console.WriteLine(maxNumber);
 
 // pirmais min cipara aprēkins
-int FirstMinNumber = Math.Min(FirstNumber, SecondNumber);
-int SecondMinNumber = Math.Min(ThirdNumber, FourthNumber);
-int MinNumber = Math.Min(FirstMinNumber, SecondMinNumber);
+int firstMinNumber = Math.Min(firstNumber, secondNumber);
+int secondMinNumber = Math.Min(thirdNumber, fourthNumber);
+int minNumber = Math.Min(firstMinNumber, secondMinNumber);
 
 // min ciparu parādīt
-string MinNumberText = ", vai Tu zini, ka no Taviem nosauktajiem skaitļiem minimālais skaitlis ir";
-Console.WriteLine(MinNumberText);
-Console.WriteLine(MinNumber);
+string minNumberText = ", vai Tu zini, ka no Taviem nosauktajiem skaitļiem minimālais skaitlis ir";
+Console.WriteLine(minNumberText);
+Console.WriteLine(minNumber);
 
 Console.WriteLine();
 Console.WriteLine("============================================================================");
@@ -109,27 +109,27 @@ string userGreeting4 = userName + ", vēlos Tev vēl pajautāt uzdot jautājumu.
     "pieņemsim, ka tas ir ābolu daudzums.";
 Console.WriteLine(userGreeting4);
 Console.WriteLine("Lūdzu, ievadi šo skaitli");
-string AplleNumberText = Console.ReadLine();
-int AplleNumber = int.Parse(AplleNumberText);
+string aplleNumberText = Console.ReadLine();
+int aplleNumber = int.Parse(aplleNumberText);
 
 string userGreeting5 = userName + ", un tagd iedomājies skaitli no 2 līdz 5," +
     " pieņemsim, ka tas ir grozu daudzums, kuros vienādi jāsaliek āboli.";
 Console.WriteLine(userGreeting5);
 Console.WriteLine("Lūdzu, ievadi šo skaitli");
-string BasketNumberText = Console.ReadLine();
-int BasketNumber = int.Parse(BasketNumberText);
+string basketNumberText = Console.ReadLine();
+int basketNumber = int.Parse(basketNumberText);
 
-string Divide1 = "tad katrā grozā var ielikt";
-int ApleinBasket1 = AplleNumber / BasketNumber;
-string Divide2 = "ābolus, bet pāri paliks";
-int ApleinBasket2 = AplleNumber % BasketNumber;
-string Divide3 = "ābols";
+string divide1 = "tad katrā grozā var ielikt";
+int apleinBasket1 = aplleNumber / basketNumber;
+string divide2 = "ābolus, bet pāri paliks";
+int apleinBasket2 = aplleNumber % basketNumber;
+string divide3 = "ābols";
 
-Console.WriteLine(Divide1);
-Console.WriteLine(ApleinBasket1);
-Console.WriteLine(Divide2);
-Console.WriteLine(ApleinBasket2);
-Console.WriteLine(Divide3);
+Console.WriteLine(divide1);
+Console.WriteLine(apleinBasket1);
+Console.WriteLine(divide2);
+Console.WriteLine(apleinBasket2);
+Console.WriteLine(divide3);
 
 Console.WriteLine();
 Console.WriteLine("============================================================================");
@@ -140,12 +140,12 @@ string greeting6 = "Labi, " + userName + ", nākamais jautājums";
 Console.WriteLine(greeting6);
 
 Console.WriteLine("Lūdzu, iedomājies vēl vienu skaitli");
-string OddorEvenNumberText = Console.ReadLine();
-int OddorEvenNumber = int.Parse(OddorEvenNumberText);
+string oddorEvenNumberText = Console.ReadLine();
+int oddorEvenNumber = int.Parse(oddorEvenNumberText);
 
-bool isEven = OddorEvenNumber % 2 == 0;
+bool isEven = oddorEvenNumber % 2 == 0;
 Console.WriteLine("skaitlis ir pāra skaitlis = " + isEven);
-bool isOdd = OddorEvenNumber % 2 != 0;
+bool isOdd = oddorEvenNumber % 2 != 0;
 Console.WriteLine("skaitlis ir nepāra skaitlis = " + isOdd);
 
 Console.WriteLine();
@@ -188,8 +188,8 @@ Console.WriteLine("Lūdzu, ievadi otras malas garumu");
 string triangleEdge2text = Console.ReadLine();
 Double triangleEdge2 = double.Parse(triangleEdge2text);
 
-string TriagleResult = "trīstūra laukums ir";
-Console.WriteLine(TriagleResult);
+string triagleResult = "trīstūra laukums ir";
+Console.WriteLine(triagleResult);
 
 double triangleArea = triangleEdge1 * triangleEdge2 / 2;
 Double triangleAreaRounded = Math.Round(triangleArea, 2);
