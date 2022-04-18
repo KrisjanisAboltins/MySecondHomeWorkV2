@@ -206,3 +206,13 @@ Console.WriteLine("Lūdzu, ievadi savu dzimšanas datumu");
 string birthDate = Console.ReadLine();
 
 Console.WriteLine($"Tavs dzimšanas datums ir {userBirthYear} gada, {birthDate}. {birthMonth}");
+
+Console.WriteLine();
+Console.WriteLine("============================================================================");
+Console.WriteLine();
+
+string thanks = "Paldies,";
+string thanks2 = "un Foršu dienu!";
+
+Console.WriteLine(thanks);
+Console.WriteLine(thanks2);
